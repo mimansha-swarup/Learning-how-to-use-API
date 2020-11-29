@@ -1,10 +1,13 @@
 :root {
-    --redbg-color: #F87171;
-    --banana-color: #FBBF24;
+    --banana-color: #ffcf09;
+    --offblack-color: #111827;
+    --complementary-color: #FDE68A;
 }
 
 body {
     margin: 0%;
+    color: var(--offblack-color);
+    background-color: var(--offblack-color);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
 }
@@ -17,11 +20,14 @@ nav {
 }
 
 textarea {
+    font-size: 2rem;
     display: block;
     margin: 1.5rem;
     padding: 1rem;
-    min-height: 10vh;
+    min-height: 15vh;
     width: 70%;
+    background-color: var(--complementary-color);
+    border: 5px solid var(--banana-color);
 }
 
 #inpt-btn {
@@ -29,19 +35,22 @@ textarea {
     padding: 1rem;
     background-color: var(--banana-color);
     width: 25vh;
-    border: 0;
+    border: 5px solid #cfff04;
 }
 
 p {
     margin: 1.5rem;
+    color: white;
 }
 
 #output-txt {
-    border: 1px solid black;
+    font-size: 1.5rem;
+    background-color: var(--complementary-color);
+    border: 5px solid var(--banana-color);
     display: block;
     margin: 1.5rem;
     padding: 1rem;
-    min-height: 5vh;
+    min-height: 10vh;
     width: 70%;
     margin-bottom: 3rm;
 }
@@ -53,18 +62,6 @@ p {
 .container-center {
     max-width: 600px;
     margin: auto;
-}
-
-.notice {
-    margin: 1.5rem;
-    padding: 1rem;
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.3rem;
-    color: #1F2937;
-    border: 3px solid #7F1D1D;
-    border-radius: 2rem;
-    background-color: var(--redbg-color);
 }
 
 .link {
