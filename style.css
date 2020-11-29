@@ -31,7 +31,7 @@ textarea {
 }
 
 #inpt-btn {
-    margin: 1.5rem;
+    margin-left: 1.5rem;
     padding: 1rem;
     background-color: var(--banana-color);
     width: 25vh;
@@ -39,7 +39,7 @@ textarea {
 }
 
 p {
-    margin: 1.5rem;
+    margin-left: 1.5rem;
     color: white;
 }
 
@@ -72,9 +72,9 @@ p {
 }
 
 footer {
-    margin-top: 10rem;
+    margin-top: 5rem;
     background-color: var(--banana-color);
-    padding: 2.5rem;
+    padding: 2rem;
     text-align: center;
     letter-spacing: 2px;
 }
