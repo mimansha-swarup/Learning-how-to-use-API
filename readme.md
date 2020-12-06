@@ -6,12 +6,12 @@ This is a simple webapp use to convert english to minion lang
 - CSS
 - JavaScritpt
 ### Live Project
-Live Project: https://minion-translation.netlify.app/
+Live Project: https://i-am-grooot.netlify.app/
 ### Extras:
 - few dom concept of js is used 
 - an API has been used to translate
 - there are may Api like these eg:yoda,  swedish chef and many more
 - api site link: https://funtranslations.com/ 
 ## Pic
-![mob view](https://github.com/mimansha-swarup/Learning-how-to-use-API/blob/main/output/mobview.png)
-![mob view](https://github.com/mimansha-swarup/Learning-how-to-use-API/blob/main/output/desktopview.png)
+![mob view]()
+![mob view]()
