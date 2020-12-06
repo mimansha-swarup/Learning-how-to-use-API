@@ -1,5 +1,6 @@
 # Translate English Into Minion gibberish
-- Live Project: https://minion-translation.netlify.app/	### Description
+
+### Description
 This is a simple webapp use to convert english to minion lang
 ### Tech Stack
 - HTML
