@@ -4,21 +4,16 @@ const outputarea = document.querySelector("#output-txt");
 
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
-function requiredURL(streng) {
-    return serverURL + "?" + "text=" + streng;
+const requiredURL=streng => serverURL + "?" + "text=" + streng;
 
-}
-
-function errorHandler(error) {
+const errorHandler= error =>{
     console.log("error occured", error);
     alert("something wrong with server! try again after some time")
 }
 
 
-function translateFunc() {
+const translateFunc=() =>{
     var inptText = txtinput.value
-
-
 
     fetch(requiredURL(inptText))
         .then(response => response.json())
